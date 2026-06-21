@@ -134,6 +134,20 @@
   font-weight: normal;
   font-style: normal;
 }
+      /* 1. Register your Bristol font file */
+@font-face {
+  font-family: 'Bristol'; 
+  src: url('./fonts/bristol.woff2') format('woff2'),
+       url('./fonts/bristol.ttf') format('truetype'); /* Fallback format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2. Target the exact utility class from your HTML link */
+.font-brand-hero {
+  font-family: 'Bristol', sans-serif;
+}
+
 
     </style>
 </head>
